@@ -1,7 +1,8 @@
 ### This is the react solution 
 https://dosefinal-assignment.firebaseapp.com/
 
-
+### here is the link to the vue solution repository
+https://github.com/iadiabagate1s/amazon_reviews_vue
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
