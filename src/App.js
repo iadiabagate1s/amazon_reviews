@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import './index.css';
+import ReviewForm from './ReviewForm'
+import Reviews from './Reviews'
+import Container from 'react-bootstrap/Container'
+
+
 
 function App() {
+  const [state, setState] = useState(1)
+  let count = state
+  console.log('this is the state', state)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container fluid>
+      <h3 className='sectitle'>Thanks for using our product leave a review</h3>
+      
+          <div className='formcont'><ReviewForm setState={setState} state={state} /></div>
+    
+    
+
+      <h3 className='sectitle'>Recent Reviews</h3>
+      <div className='revcont'><Reviews count={count}/></div>
+    
+   
+
+
+    </Container>
+    </>
   );
 }
 

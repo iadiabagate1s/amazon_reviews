@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.formcont{
+width: 35vw;
+max-width: 45rem;
+margin: 10px auto;
+}
+.form{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.revcont{
+  width: 60vw;
+max-width: 55rem;
+margin: 10px auto;
+
+}
+.reviews{
+  
+  text-align: center;
+  display: flex;
+  
+  
+}
+.msg{
+  background-color: rgba(240, 45, 45, 0.336);
+}
+.card{
+  width:30vw;
+  margin: 5px 5px;
+}
+.sectitle{
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 5px 0;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media(max-width : 715px){
+  .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+   margin-left: auto;
+  }
+  .formcont{
+    width: 55vw;
+    max-width: 45rem;
+    margin: 10px auto;
+    }
+    .revcont{
+      width: 80vw;
+    max-width: 90%;
+    margin: 10px auto;
+    
+    }
+    .card{
+      width:80vw
+    }
 }
+
