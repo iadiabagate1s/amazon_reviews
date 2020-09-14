@@ -1,8 +1,25 @@
-### This is the react solution 
+
+## Dose_Assignment React Framework
+Live Link:
 https://dosefinal-assignment.firebaseapp.com/
 
-### here is the link to the vue solution repository
+
+
+## Link to Dose_Assignment Vue Framework 
+
+repository Link:
 https://github.com/iadiabagate1s/amazon_reviews_vue
+
+
+Live Link:
+https://dosemedia-reviews.web.app/
+
+
+
+
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
