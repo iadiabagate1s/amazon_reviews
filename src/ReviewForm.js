@@ -71,7 +71,7 @@ async function sendData(e){
         confirmation.push('Review required');
       }
       
-      console.log('confirmation==', confirmation)
+   
       setMsg([...confirmation])
 }
 

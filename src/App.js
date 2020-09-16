@@ -9,7 +9,7 @@ import Container from 'react-bootstrap/Container'
 function App() {
   const [state, setState] = useState(1)
   let count = state
-  console.log('this is the state', state)
+ 
   return (
     <>
       <Container fluid>
