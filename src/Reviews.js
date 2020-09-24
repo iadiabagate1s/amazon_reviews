@@ -28,7 +28,7 @@ export default function Reviews({
                 .orderBy("timestamp", "desc")
                 .onSnapshot(
                     res => {
-                        console.log('data reload ',res.docs)
+                        console.log('data reload update',res.docs)
                         setData(res.docs)
 
                     },
